@@ -22,3 +22,19 @@ WHERE `cfu` > 10
 3. SELECT *
 FROM `courses`
 WHERE YEAR(`date_of_birth`) < 1996;
+
+4. SELECT *
+FROM `courses`
+WHERE `period` LIKE 'I semestre'
+AND `year` = 1
+
+5. SELECT *
+FROM `courses`
+WHERE `date` LIKE `20/06/2020`
+AND `hour` > `14:00:00`
+
+6. SELECT * FROM `degrees` 
+WHERE `name`
+ LIKE 'Corso di Laurea Magistrale%';
+
+ 
