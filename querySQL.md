@@ -37,4 +37,9 @@ AND `year` = 1
 WHERE `name`
  LIKE 'Corso di Laurea Magistrale%';
 
- 7.
+7. SELECT COUNT(ID)
+FROM `departmens`
+
+8. SELECT COUNT(ID)
+FROM `teachers` 
+WHERE `phone` IS NULL;
