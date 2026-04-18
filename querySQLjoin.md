@@ -14,8 +14,8 @@ filtrare i tentativi con voto minimo 18.
 
 
 1. SELECT 
-    students.name, students.surname,
-    degrees.name AS degrees_name
+students.name, students.surname,
+degrees.name AS degrees_name
 FROM students
 JOIN degrees ON students.degree_id = degrees.id`
 WHERE degrees.name = 'Corso di Laurea in Economia';
